@@ -1,0 +1,7 @@
+.header {
+  width: 100vw;
+  top: 0px;
+  position: fixed;
+  background-color: #333;
+  color: white;
+}

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   return (
-    <nav>
+    <nav className="flex container justify-evenly">
       <Link to="/about">About Me</Link>
       <Link to="/portfolio">Portfolio</Link>
       <Link to="/contact">Contact</Link>

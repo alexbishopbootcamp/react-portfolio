@@ -9,16 +9,20 @@ import Resume from './components/Resume/Resume';
 
 const App = () => {
   return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/about" element={<AboutMe />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
-      </Routes>
-      <Footer />
-    </Router>
+    <div className="min-h-screen bg-gray-100">
+      <Router>
+        <Header />
+        <div className="pt-0 pb-24 sm:pt-24 sm:pb-0">
+          <Routes>
+            <Route path="/about" element={<AboutMe />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
+          </Routes>
+        </div>
+        <Footer />
+      </Router>
+    </div>
   );
 };
 

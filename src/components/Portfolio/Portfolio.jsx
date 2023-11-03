@@ -28,19 +28,19 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Project',
-    description: 'Project description',
-    image: 'placeholder.jpg',
-    deployment: 'https://alexbishopbootcamp.github.io/',
-    github: 'https://github.com/',
+    title: 'Code Quiz',
+    description: 'A timed quiz on Javascript fundamentals that locally stores high scores',
+    image: 'code-quiz.png',
+    deployment: 'https://alexbishopbootcamp.github.io/code-quiz/',
+    github: 'https://github.com/alexbishopbootcamp/code-quiz',
   },
   {
     id: 5,
-    title: 'Project',
-    description: 'Project description',
-    image: 'placeholder.jpg',
-    deployment: 'https://alexbishopbootcamp.github.io/',
-    github: 'https://github.com/',
+    title: 'Work Day Scheduler',
+    description: 'A calendar app for scheduing events throughout a work day',
+    image: 'scheduler.png',
+    deployment: 'https://alexbishopbootcamp.github.io/work-day-scheduler/',
+    github: 'https://github.com/alexbishopbootcamp/work-day-scheduler',
   },
   {
     id: 6,
@@ -54,8 +54,8 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div className="flex flex-wrap flex-col justify-center items-center w-full m-auto p-0
-      sm:flex-row sm:max-w-screen-lg sm:p-8">
+    <div className="flex flex-wrap flex-col justify-center items-center w-full p-0
+      sm:flex-row">
       {projects.map((project) => (
         <Project
           key={project.id}

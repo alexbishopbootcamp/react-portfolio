@@ -12,7 +12,7 @@ const App = () => {
     <div className="min-h-screen bg-gray-300 sm:bg-gray-100">
       <Router>
         <Header />
-        <div className="pt-0 pb-24 sm:pt-24 sm:pb-0 sm:max-w-screen-lg sm:p-8 m-auto">
+        <div className="pt-0 pb-24 sm:pt-32 sm:pb-0 sm:max-w-screen-lg sm:p-8 m-auto">
           <Routes>
             <Route path="/about" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />

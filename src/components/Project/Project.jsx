@@ -10,7 +10,7 @@ const Project = ({ title, image, description, deployment, github }) => {
       className={`group relative transition-transform
                  bg-slate-200 bg-cover bg-center overflow-hidden
                  sm:rounded-2xl
-                 w-full h-56 mb-1  
+                 w-full h-56  
                  sm:w-72 sm:h-52 sm:m-4 
                  sm:hover:scale-110
                  ${isFocused ? 'sm:scale-110' : ''}`}

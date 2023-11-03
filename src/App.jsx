@@ -9,7 +9,7 @@ import Resume from './components/Resume/Resume';
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-gray-300 sm:bg-gray-100">
+    <div className="min-h-screen bg-gray-100 sm:bg-gray-100">
       <Router>
         <Header />
         <div className="pt-0 pb-24 sm:pt-32 sm:pb-0 sm:max-w-screen-lg sm:p-8 m-auto">

@@ -9,7 +9,7 @@ import Resume from './components/Resume/Resume';
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-300 sm:bg-gray-100">
       <Router>
         <Header />
         <div className="pt-0 pb-24 sm:pt-24 sm:pb-0">
@@ -20,7 +20,7 @@ const App = () => {
             <Route path="/resume" element={<Resume />} />
           </Routes>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </div>
   );

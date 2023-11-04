@@ -9,18 +9,20 @@ import Resume from './components/Resume/Resume';
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-gray-100 sm:bg-gray-100">
+    <div className="bg-gray-100 sm:bg-gray-100">
       <Router>
         <Header />
-        <div className="pt-0 pb-24 sm:pt-32 sm:pb-0 sm:max-w-screen-lg sm:p-8 m-auto">
+        <div className="flex flex-col justify-between min-h-screen
+                        pt-0 pb-24 sm:pt-32 sm:pb-0 sm:p-8
+                        sm:max-w-screen-lg m-auto">
           <Routes>
             <Route path="/about" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />
           </Routes>
+          <Footer />
         </div>
-        {/* <Footer /> */}
       </Router>
     </div>
   );

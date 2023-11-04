@@ -6,7 +6,7 @@ const Header = () => {
     <div className="fixed z-10 bottom-0 w-full flex flex-row text-white bg-color-a h-20
                 sm:top-0 sm:bottom-auto">
       
-      <div className="w-72 flex">
+      <div className="w-72 flex sm:block hidden">
         <span className="text-4xl m-auto">Alex Bishop</span>
       </div>
 
@@ -14,7 +14,7 @@ const Header = () => {
         <Navigation />
       </div>
 
-      <div className="w-72 flex">
+      <div className="w-72 flex sm:block hidden">
         <span className="text-4xl m-auto"></span>
       </div>
     </div>

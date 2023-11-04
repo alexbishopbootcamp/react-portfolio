@@ -44,11 +44,11 @@ const projects = [
   },
   {
     id: 6,
-    title: 'Project',
-    description: 'Project description',
-    image: 'placeholder.jpg',
-    deployment: 'https://alexbishopbootcamp.github.io/',
-    github: 'https://github.com/',
+    title: 'Readme Generator',
+    description: 'An easy to use readme generator for new projects',
+    image: 'readme.png',
+    deployment: 'https://github.com/alexbishopbootcamp/readme-generator',
+    github: 'https://github.com/alexbishopbootcamp/readme-generator',
   }
 ]
 

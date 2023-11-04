@@ -16,9 +16,9 @@ const Project = ({ title, image, description, deployment, github }) => {
                  ${isFocused ? 'sm:scale-110' : ''}`}
       style={{ backgroundImage: `url(${image})` }}
     > 
-      <div className={`absolute inset-0 bg-black opacity-70 sm:opacity-50
-                      sm:group-hover:opacity-70 transition-all duration-200
-                      ${isFocused ? 'sm:opacity-70' : ''}`}
+      <div className={`absolute inset-0 bg-black opacity-80 sm:opacity-50
+                      sm:group-hover:opacity-80 transition-all duration-200
+                      ${isFocused ? 'sm:opacity-80' : ''}`}
       ></div>
       <h2 className={`absolute top-9 sm:top-1/2 inset-x-0
                     flex items-center justify-center 

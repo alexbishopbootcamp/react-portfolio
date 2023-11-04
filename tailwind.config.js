@@ -5,8 +5,13 @@ export default {
     './src/App.jsx',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'color-a': '#555B6E',
+        'color-b': '#89B0AE',
+        'color-c': '#BEE3DB',
+      },
+    },
   },
   plugins: [],
 }
-

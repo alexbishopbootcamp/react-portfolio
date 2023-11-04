@@ -11,7 +11,7 @@ const Project = ({ title, image, description, deployment, github }) => {
                  bg-slate-200 bg-cover bg-center overflow-hidden
                  sm:rounded-2xl
                  w-full h-56  
-                 sm:w-72 sm:h-52 sm:m-4 
+                 sm:w-72 sm:h-52 sm:m-3 
                  sm:hover:scale-110
                  ${isFocused ? 'sm:scale-110' : ''}`}
       style={{ backgroundImage: `url(${image})` }}
@@ -40,7 +40,7 @@ const Project = ({ title, image, description, deployment, github }) => {
       >
         {description}
       </p>
-      <div className={`absolute bottom-3 inset-x-3
+      <div className={`absolute sm:bottom-3 bottom-8 inset-x-3
                       flex items-center justify-around
                       sm:opacity-0 sm:group-hover:opacity-100
                       transition-all duration-200
@@ -50,9 +50,9 @@ const Project = ({ title, image, description, deployment, github }) => {
           href={deployment}
           target="_blank"
           rel="noreferrer"
-          className={`bg-slate-600 text-white text-lg font-bold py-2 px-4 rounded-lg
-                     hover:bg-slate-700 transition-all duration-200
-                     focus:bg-slate-700`}
+          className={`bg-color-a text-white text-lg font-bold py-3 px-6 sm:py-2 sm:px-4 rounded-lg
+                     hover:bg-color-c hover:text-black transition-all duration-200
+                     focus:bg-color-c focus:text-black`}
         >
           Open
         </a>
@@ -60,9 +60,9 @@ const Project = ({ title, image, description, deployment, github }) => {
           href={github}
           target="_blank"
           rel="noreferrer"
-          className={`bg-slate-600 text-white text-lg font-bold py-2 px-4 rounded-lg
-                     hover:bg-slate-700 transition-all duration-200
-                     focus:bg-slate-700`}
+          className={`bg-color-a text-white text-lg font-bold py-3 px-6 sm:py-2 sm:px-4 rounded-lg
+                     hover:bg-color-c hover:text-black transition-all duration-200
+                     focus:bg-color-c focus:text-black`}
         >
           Code
         </a>

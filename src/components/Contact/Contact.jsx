@@ -24,7 +24,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-6 sm:p-2 p-6">
       <h1 className="text-3xl">Contact</h1>
       <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
         <input 

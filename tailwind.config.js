@@ -11,6 +11,9 @@ export default {
         'color-b': '#89B0AE',
         'color-c': '#BEE3DB',
       },
+      fontFamily: {
+        'sans': ['Roboto', 'sans-serif'],
+      },
     },
   },
   plugins: [],

@@ -75,7 +75,7 @@ const logos = [
   {
     id: 1,
     name: 'GitHub',
-    url: 'https://github.com',
+    url: 'https://github.com/alexbishopbootcamp',
     component: GithubLogo
   },
   {
@@ -94,7 +94,7 @@ const logos = [
 
 const Footer = () => {
   return (
-    <div className="flex justify-around mb-8">
+    <div className="flex justify-around py-6">
       
       {logos.map((logo) => (
         <a

@@ -54,8 +54,8 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div className="flex flex-wrap flex-col justify-center items-center w-full p-0 gap-1
-      sm:flex-row">
+    <div className="flex flex-wrap flex-col justify-center items-center w-full sm:p-2
+    gap-1 sm:flex-row">
       {projects.map((project) => (
         <Project
           key={project.id}

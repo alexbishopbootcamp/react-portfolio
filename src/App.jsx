@@ -13,7 +13,7 @@ const App = () => {
       <Router>
         <Header />
         <div className="flex flex-col justify-between min-h-screen
-                        pt-0 pb-24 sm:pt-32 sm:pb-0 sm:p-8
+                        pt-0 pb-20 sm:pt-32 sm:pb-0 sm:p-8
                         sm:max-w-screen-lg m-auto">
           <Routes>
             <Route path="/about" element={<AboutMe />} />

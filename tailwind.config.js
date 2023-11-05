@@ -10,6 +10,7 @@ export default {
         'color-a': '#555B6E',
         'color-b': '#89B0AE',
         'color-c': '#BEE3DB',
+        'color-d': '#C47245',
       },
       fontFamily: {
         'sans': ['Roboto', 'sans-serif'],

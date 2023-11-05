@@ -59,7 +59,7 @@ const Contact = () => {
         </button>
       </form>
       <div>
-        Or contact me at <a className="text-color-a font-bold hover:text-color-b transition-all" href="mailto:contact@alexbi.shop">contact@alexbi.shop</a>
+        Or contact me at <a className="text-color-d font-bold hover:text-color-b transition-all" href="mailto:contact@alexbi.shop">contact@alexbi.shop</a>
       </div>
     </div>
   );

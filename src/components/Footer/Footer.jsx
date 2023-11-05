@@ -94,7 +94,7 @@ const logos = [
 
 const Footer = () => {
   return (
-    <div className="flex justify-around py-6">
+    <div className="flex justify-center space-x-16 py-6">
       
       {logos.map((logo) => (
         <a

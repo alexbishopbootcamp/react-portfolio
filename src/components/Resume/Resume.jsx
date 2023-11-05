@@ -4,7 +4,7 @@ const Resume = () => {
   return (
     <div className="flex flex-col gap-6 sm:p-2 p-6">
       <h1 className="text-3xl"> Resume and skills </h1>
-      <a href="https://example.com" className="text-color-a font-bold hover:text-color-b transition-all" download>Download my Resume here</a>
+      <a href="https://alexbi.shop/resume/" className="text-color-a font-bold hover:text-color-b transition-all" download>Download my Resume here</a>
       <h2 className="text-2xl">Web Development</h2>
       <ul className="list-disc list-inside">
         <li>HTML</li>
@@ -22,7 +22,7 @@ const Resume = () => {
         <li>Python</li>
         <li>C</li>
         <li>C++</li>
-        <li>GLSL</li>
+        <li>GLSL Shader Programming</li>
         <li>Lua</li>
         <li>x86 Assembly</li>
         <li>Java</li>

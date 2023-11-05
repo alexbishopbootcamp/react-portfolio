@@ -28,7 +28,7 @@ const Navigation = () => {
   const location = useLocation();
 
   return (
-    <nav className="sm:mt-4 flex h-full w-full sm:space-x-10 justify-evenly sm:justify-center">
+    <nav className="sm:mt-4 flex h-full w-full sm:space-x-6 justify-evenly sm:justify-center">
       {links.map((link) => (
         <Link
           key={link.id}

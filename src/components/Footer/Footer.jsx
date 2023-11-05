@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Store SVGs inline so they are easy to style
 const GithubLogo = ({ className }) => (
   <svg
       className={className}

@@ -1,8 +1,41 @@
-# React + Vite
+# React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple portfolio page written in React
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Questions](#questions)
+
+## Installation
+
+Clone the repository and run ```npm install``` in the root directory.
+
+## Usage
+
+Run ```npm run build``` in the root directory. This will build the site into the ```/dist``` directory.
+
+Run ```npm run dev``` to host it in a dev server with Vite.
+
+[View the page here](https://alexbishopreactportfolip.netlify.app/portfolio)
+
+Preview image:
+
+![Preview image](preview.png)
+
+## License
+
+This project uses the [MIT](https://opensource.org/licenses/MIT) license.
+
+
+## Questions
+
+If you have any questions, please contact me at [github@alexbi.shop](mailto:github@alexbi.shop).
+
+You can also find me on [Github](https://github.com/alexbishopbootcamp).

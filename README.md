@@ -23,7 +23,7 @@ Run ```npm run build``` in the root directory. This will build the site into the
 
 Run ```npm run dev``` to host it in a dev server with Vite.
 
-[View the page here](https://alexbishopreactportfolip.netlify.app/portfolio)
+[View the page here](https://alexbishopreactportfolip.netlify.app/)
 
 Preview image:
 

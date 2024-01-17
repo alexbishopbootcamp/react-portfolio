@@ -4,6 +4,14 @@ import Project from '../Project/Project';
 const projects = [
   {
     id: 1,
+    title: 'ScrambleMail',
+    description: 'An email proxy service that protects against data breaches',
+    image: 'scramblemail.png',
+    deployment: 'https://scramble.email/',
+    github: 'https://github.com/alexbishopbootcamp/scramblemail',
+  },
+  {
+    id: 2,
     title: 'Lyrynx',
     description: 'An app that streams music from Spotify and displays the lyrics underneath',
     image: 'lyrynx.png',
@@ -11,7 +19,7 @@ const projects = [
     github: 'https://github.com/alexbishopbootcamp/music-lyric-player',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Scribble Space',
     description: "A user-friendly task management and planning app designed to help you stay organized and productive.",
     image: 'scribble-space.png',
@@ -19,7 +27,7 @@ const projects = [
     github: 'https://github.com/Daniel-Bindig/scribble-space',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Password Generator',
     description: 'An easy to use utility for generating passwords with selectable character sets and password length',
     image: 'password-generator.jpg',
@@ -27,7 +35,7 @@ const projects = [
     github: 'https://github.com/alexbishopbootcamp/password-generator',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Code Quiz',
     description: 'A timed quiz on Javascript fundamentals that locally stores high scores',
     image: 'code-quiz.png',
@@ -35,7 +43,7 @@ const projects = [
     github: 'https://github.com/alexbishopbootcamp/code-quiz',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Work Day Scheduler',
     description: 'A calendar app for scheduing events throughout a work day',
     image: 'scheduler.png',
@@ -43,7 +51,7 @@ const projects = [
     github: 'https://github.com/alexbishopbootcamp/work-day-scheduler',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Readme Generator',
     description: 'An easy to use readme generator for new projects',
     image: 'readme.png',

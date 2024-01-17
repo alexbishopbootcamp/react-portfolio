@@ -35,7 +35,7 @@ const Navigation = () => {
           to={link.url}
           className={`flex-1 sm:flex-none sm:w-28 justify-center items-center flex px-2 py-6 text-md transition-colors duration-200
                 sm:py-2 sm:px-4 sm:text-lg
-                ${location.pathname === link.url ? 'bg-gray-100 text-black' : 'hover:bg-gray-100 hover:text-black'}`}>
+                ${location.pathname === link.url ? 'bg-gray-100 text-black rounded-t' : 'hover:bg-gray-100 hover:text-black'}`}>
                   <span>
                   {link.text}
                   </span>
